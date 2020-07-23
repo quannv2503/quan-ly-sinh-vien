@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>quan ly sinh vien</title>
+    <link rel="stylesheet" href="quản lý sinh viên.css">
+    <script src="quản lý sinh viên.js"></script>
+</head>
+<body>
+<div class="form-student">
+
+    <h3>Thông tin sinh viên   </h3>
+    <form>
+        <label>Họ và tên</label><input type="text" id="hoten">
+        <br>
+        <label>MSSV</label><input type="text" id="mssv">
+        <br>
+        <label>Lớp</label><input type="text" id="lớp">
+        <br>
+        <label>Email</label><input type="text" id="email">
+        <br>
+        <label>SĐT</label><input type="text" id="sđt">
+        <br>
+        <label>Địa chỉ</label><input type="text" id="diachi">
+        <br>
+        <label >Giới tính</label><input type="radio" value="Nam" id="nam" name="gioitinh">Nam
+        <input type="radio" value="Nữ" id="nu" name="gioitinh">Nữ
+        <br><br>
+        <label >&nbsp;</label><span id="thaydoi"></span>
+        <input type="button" onclick="them()" value="Thêm" id="sua"><input type="reset" value="Reset">
+
+
+    </form>
+</div>
+
+<div class="list-student">
+    <h3>Danh sách sinh viên   </h3>
+    <table id="list" width="100%" border="1" >
+       <thead>
+        <tr>
+            <th>STT</th>
+            <th>Họ và tên</th>
+            <th>MSSV</th>
+            <th>Lớp</th>
+            <th>Email</th>
+            <th>SĐT</th>
+            <th>Địa chỉ</th>
+            <th>Giới tính</th>
+            <th>Hành động</th>
+        </tr>
+       </thead>
+        <tbody id="n"></tbody>
+    </table>
+</div>
+
+</body>
+</html>

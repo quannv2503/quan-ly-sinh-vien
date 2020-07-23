@@ -1,0 +1,60 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+div.form-student,div.list-student{
+    width: 500px;
+    border: 1px solid #ccc;
+    margin: 25px;
+    padding: 10px;
+    float: left;
+}
+div.form-student h3 {
+    padding: 0px;
+    margin-top: 0px;
+}
+div.form-student label {
+    width: 100px;
+    float: left;
+}
+div.form-student input[type="text"]{
+    margin-bottom: 10px;
+    width: 200px;
+    padding: 5px;
+}
+div.form-student input[type="reset"],input[type='button'] {
+    margin-bottom: 10px;
+    width: 100px;
+    padding: 5px;
+}
+div.list-student {
+    width: 1000px;
+    border: 1px solid #ccc;
+    margin: 25px;
+    padding: 10px;
+    float: left;
+}
+table, th, td{
+    border:1px solid #868585;
+}
+table{
+    border-collapse:collapse;
+    width:100%;
+}
+th, td{
+    text-align:left;
+    padding:10px;
+}
+table tr:nth-child(odd){
+    background-color:#eee;
+    font-size: 20px;
+}
+table tr:nth-child(even){
+    background-color: rgba(255, 255, 255, 0.76);
+    font-size: 20px;
+}
+table tr:hover {background-color: #eebc61;}
+table th {
+    color: #ff0000;
+    font-size: 20px;
+}
